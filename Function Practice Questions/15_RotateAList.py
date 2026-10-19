@@ -1,0 +1,16 @@
+def rotate_list(lst, k):
+    n = len(lst)
+
+    if n == 0:
+        return lst
+
+    k = k % n
+    result = []
+
+    for i in range(n - k, n):
+        result.append(lst[i])
+
+    for i in range(0, n - k):
+        result.append(lst[i])
+
+    return result
