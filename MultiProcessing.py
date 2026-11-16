@@ -1,6 +1,6 @@
 ### Multiprocessing : Processes that run in parallel
 ## 1. CPU-Bound Tasks-Tasks that are heavy on CPU usage (e.g., mathematical computations, data processing).
-## 2.Parallel execution- Multiple cores of the CPU
+## 2. Parallel execution- Multiple cores of the CPU
 
 import multiprocessing
 
