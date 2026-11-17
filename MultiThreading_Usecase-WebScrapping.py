@@ -22,7 +22,7 @@ import threading
 import requests
 from bs4 import BeautifulSoup
 
-urls = ['https://python.langchain.com/v0.2/docs/introduction/', 'https://python.langchain.com/v0.2/docs/concepts/', 'https://python.langchain.com/v0.2/docs/tutorials/']
+urls = ['https://python.langchain.com/v0.2/docs/introduction/', 'https://python.langchain.com/v0.2/docs/concepts/', 'https://python.langchain.com/v0.2/docs/tutorials/','https://github.com/Prafulla0001/Complete-Python-Bootcamp/blob/main/16-Multithreading%20and%20Multiprocessing/webscrapping_multi_threading.py']
 
 def fetch_content (url):
     response = requests.get(url)
