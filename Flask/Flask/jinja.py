@@ -48,7 +48,7 @@ def success(score):
 def success1(score):
     return "The marks you got is "+ str(score)
 
-## Dynamic URLs
+## Jinja2 Template Engine
 @app.route('/dynamic/<int:score>')
 def dynamic(score):
     res = ""
